@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-950 text-green-400 font-mono">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request Header Parser</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col items-center justify-center min-h-screen p-8">
+    <main class="max-w-3xl w-full bg-gray-900 rounded-xl p-6 shadow-lg border border-green-500">
+      <h1 class="text-3xl font-bold mb-6 border-b border-green-600 pb-2">📡 Request Header Parser Microservice</h1>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">🧪 Example Usage:</h2>
+        <p class="ml-4 text-green-300">
+          <a href="/api/whoami" class="underline hover:text-green-200 transition">[base url]/api/whoami</a>
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold mb-2">📤 Example Output:</h2>
+        <pre class="bg-gray-800 text-green-200 p-4 rounded-lg overflow-x-auto text-sm whitespace-pre-wrap"><code>{
+  "ipaddress": "::ffff:159.20.14.100",
+  "language": "en-US,en;q=0.5",
+  "software": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"
+}</code></pre>
+      </section>
+    </main>
+
+    <footer class="mt-8 text-sm text-green-600">
+      By
+      <a
+        href="https://www.freecodecamp.org"
+        class="underline hover:text-green-400 transition"
+        target="_blank"
+        >freeCodeCamp</a
+      >
+    </footer>
+  </body>
+</html>
